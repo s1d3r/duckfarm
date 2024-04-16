@@ -21,6 +21,7 @@ CONFIG = {
     'SYSTEM_HOST': '10.10.10.10',
     'SYSTEM_PORT': '31337',
     'TEAM_TOKEN': '4fdcd6e54faa8991',
+
     # 'SYSTEM_PROTOCOL': 'volgactf',
     # 'SYSTEM_VALIDATOR': 'volgactf',
     # 'SYSTEM_HOST': 'final.volgactf.ru',
@@ -37,10 +38,7 @@ CONFIG = {
     # usually should be more than SUBMIT_FLAG_LIMIT
     # 'INFO_FLAG_LIMIT': 10,
 
-    # Password for the web interface. This key will be excluded from config
-    # before sending it to farm clients.
-    # ########## DO NOT FORGET TO CHANGE IT ##########
-    'SERVER_PASSWORD': os.getenv('SERVER_PASSWORD') or '1234',
+    'SERVER_PASSWORD': os.getenv('farm_password') or '1234',
 
     # For all time-related operations
     'TIMEZONE': 'Europe/Moscow',
