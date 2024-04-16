@@ -37,7 +37,7 @@
     <template v-slot:no-data="{ message }">
       <div class="full-width row flex-center text-accent q-gutter-sm">
         <q-icon size="2em" name="sentiment_dissatisfied" />
-        <span> Well this is sad... {{ message }} </span>
+        <span> Got nothing yet... {{ message }} </span>
       </div>
     </template>
     <template v-slot:header-cell="props">
