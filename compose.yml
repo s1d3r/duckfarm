@@ -74,6 +74,6 @@ services:
     ports:
       - "6378:6379"
     restart: unless-stopped
-    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${EXTERNAL_REDIS_PASSWORD:-changeme}"]
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${farm_redis_password}"]
     volumes:
       - ./vol/external_redis:/data
