@@ -5,7 +5,7 @@
         <q-avatar>
           <img src="@/assets/duck.png" />
         </q-avatar>
-        <q-toolbar-title> Duckfarm </q-toolbar-title>
+        <q-toolbar-title> Duckf4rm </q-toolbar-title>
         <q-tabs class="bg-cbs text-cbs" shrink>
           <q-route-tab :to="{ name: 'flags' }" label="Flags" />
           <q-route-tab :to="{ name: 'teams' }" label="Teams" />
