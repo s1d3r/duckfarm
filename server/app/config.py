@@ -11,7 +11,7 @@ CONFIG = {
     },
     # 'FLAG_FORMAT': r'CTF\.Moscow\{[a-zA-Z\.0-9_-]+\}',
     # 'FLAG_FORMAT': r'VolgaCTF{[\w-]*\.[\w-]*\.[\w-]*}',
-    'FLAG_FORMAT': rCHANGE_FLAG_REGEX,
+    'FLAG_FORMAT': r'CHANGE_FLAG_REGEX',
 
     # 'SYSTEM_PROTOCOL': 'ructf_http',
     # 'SYSTEM_URL': 'http://monitor.ructfe.org/flags',
@@ -38,7 +38,7 @@ CONFIG = {
     # usually should be more than SUBMIT_FLAG_LIMIT
     # 'INFO_FLAG_LIMIT': 10,
 
-    'SERVER_PASSWORD': CHANGE_FARM_PASSWORD,
+    'SERVER_PASSWORD': 'CHANGE_FARM_PASSWORD',
 
     # For all time-related operations
     'TIMEZONE': 'Europe/Moscow',
