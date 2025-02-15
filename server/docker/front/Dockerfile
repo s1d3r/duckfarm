@@ -1,4 +1,4 @@
-FROM node:18-slim AS front-base
+FROM node:20-slim AS front-base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable && corepack prepare pnpm@8.9.0 --activate
