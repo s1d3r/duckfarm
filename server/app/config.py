@@ -13,9 +13,14 @@ CONFIG = {
     # 'FLAG_FORMAT': r'VolgaCTF{[\w-]*\.[\w-]*\.[\w-]*}',
     'FLAG_FORMAT': r'CHANGE_FLAG_REGEX',
 
-    'SYSTEM_PROTOCOL': 'ructf_http',
-    'SYSTEM_URL': 'http://CHANGE_SYSTEM_URL/flags',
-    'SYSTEM_TOKEN': 'CHANGE_TOKEN',
+    #'SYSTEM_PROTOCOL': 'ructf_http',
+    #'SYSTEM_URL': 'http://CHANGE_SYSTEM_URL/flags',
+    #'SYSTEM_TOKEN': 'CHANGE_TOKEN',
+
+    'SYSTEM_PROTOCOL': 'ctf01d',
+    'SYSTEM_HOST': 'CHANGE_IP',
+    'SYSTEM_PORT': 'CHANGE_PORT',
+    'TEAM_TOKEN': 'CHANGE_TOKEN',
 
     # 'SYSTEM_PROTOCOL': 'forcad_tcp',
     # 'SYSTEM_HOST': '10.10.10.10',
