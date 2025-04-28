@@ -10,7 +10,7 @@ FROM front-base AS front-build
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install
 RUN pnpm run build
 
-FROM nginx:1.21.0-alpine
+FROM nginx:1.26.1-alpine
 
 COPY ./docker/front/proxy_params /etc/nginx/proxy_params
 COPY ./docker/front/app.conf /etc/nginx/conf.d/default.conf
